@@ -31,8 +31,7 @@ ul {
     margin-top: 20px;
 }
 
-.tech_nav {
-    text-decoration: none;
+.main_nav {
     color: #f5f5d0;
 }
 
@@ -45,7 +44,7 @@ h2,
 .formEl, 
 #sign_up_message,
 .form_btn {
-    margin-top: 3%;
+    margin: 2% 0;
 }
 
 input {
