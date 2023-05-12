@@ -21,4 +21,13 @@ router.get('/login', async (req, res) => {
     }
 });
 
+// ROUTER TO GET SIGNUP PAGE
+router.get('/signup', async (req, res) => {
+    try {
+        res.render('signUp')
+    } 
+    catch {
+        res.status(500).json(err);
+    }
+});
 module.exports = router;
